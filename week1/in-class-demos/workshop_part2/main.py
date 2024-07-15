@@ -26,7 +26,7 @@ print(multiply(a, b))
 #     print(calculator.add())
 #     print(calculator.subtract())
 #     print(calculator.multiply())
-
+#
 #     scientific_calculator = ScientificCalculator(2, 3)
 #     print(scientific_calculator.power())
 
