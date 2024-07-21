@@ -45,4 +45,5 @@ print(dict(animal_with_traits))
 #for n,c in zip(animals, traits): ## returns a collection
 #    animals[n] = c
 
-animals = {n:c for n, c in zip(animals, traits)}
+animals = {n:c for n, c in zip(animals, traits)} ## using zip more efficiently
+print(animals)
