@@ -11,10 +11,12 @@ a = 2
 print("a = 2")
 print('id', id(a))
 input()
+# variables are immutable, so it created a copy in a different memory address
 a = 4
 print("a = 4")
 print('id', id(a))
 input()
+# this actually just keeps making objects, uses wayy too much memory bad :(
 a += 1
 print("a += 1")
 print('id', id(a))
@@ -22,6 +24,7 @@ input()
 print()
 print("Now, let's do a mutable!")
 input("Ready? Let's go...")
+# lists are a mutable data type, so mem
 a = []
 print("a = []")
 print('id', id(a))

@@ -12,6 +12,7 @@ class Animal:
     # def __repr__(self): This allows string representation of an instance, rather than object and its memory location
     #     return f"Animal(name='{self.name}', characteristic='{self.characteristic}')"
 
+
 # Create instances of Animal for each entry in animals_dict
 
 

@@ -6,12 +6,24 @@ def greet():
 
 # Additional activity - create a calculator class and re-use this by instantiating it in the main.py
 
+# class Calculator:
+#     def __init__(self, first, second):
+#         self.first = first
+#         self.second = second
+#
+#     def add(self):
+#         return self.first + self.second
 
+class Calculator:
+    def add(self,a ,b):
+        return a + b
 
 # So as not to contaminate your global
 # namespace, it is good practice to use a
 # main function.
 
+def main():
+    greet()
 
 # so that we can reuse our code as both a
 # module and a script
