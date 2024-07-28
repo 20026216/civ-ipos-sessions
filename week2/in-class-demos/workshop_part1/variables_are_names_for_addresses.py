@@ -1,3 +1,4 @@
+
 '''The following code (run it) demonstrates
 what happens when we update mutable and immutable objects
 Remember: the id is just the memory address
@@ -24,7 +25,7 @@ input()
 print()
 print("Now, let's do a mutable!")
 input("Ready? Let's go...")
-# lists are a mutable data type, so mem
+# lists are a mutable data type, so memory address stays the same
 a = []
 print("a = []")
 print('id', id(a))
