@@ -16,6 +16,7 @@ def create_product_lookup_table(product_codes, product_info):
             # Add the key-value pair to the lookup table
             look_up_table[key] = value
 
+    ### TODO refactor to list comprehension eg 2d_structures.py 3a
 
     # Return the completed lookup table
     return look_up_table
