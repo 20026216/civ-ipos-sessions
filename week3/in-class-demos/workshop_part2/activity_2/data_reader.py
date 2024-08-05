@@ -52,8 +52,8 @@ revenue_per_day = get_revenue_per_day(sales_data)
 print(revenue_per_day)
 
 # Task 5: Identify the day with the highest total revenue
-# max_revenue_date = max(date_revenue, key=date_revenue.get)
-
+max_revenue_date = max(revenue_per_day, key=revenue_per_day.get)
+print(max_revenue_date)
 # Task 6: Calculate total units sold for each date
 # product_units_sold = {}
 
