@@ -9,10 +9,21 @@ Ensure you step through this program in pdb only to understand how the program w
 # Once debugged add some documentation examples to help the next programmer!
 
 import sys
-# import os
+import os
 
-def add_task(task):
-    task.append((task, False)) 
+# def get_path(filename):
+#     """Return file's path or empty string if no path."""
+#     head, tail = os.path.split(filename)
+#     return head
+#
+#
+# import pdb; pdb.set_trace()
+# filename = __file__
+# filename_path = get_path(filename)
+# print(f'path = {filename_path}')
+
+def add_task(task, tasks):
+    tasks.append(task)
 
 def mark_task_completed(tasks, index):
     if 0 <= index < len(tasks):
@@ -66,7 +77,7 @@ def main():
 
         if choice == "1":
             task = input("Enter task description: ")
-            add_task(tasks, task)
+            add_task(task, tasks)
         elif choice == "2":
             index = int(input("Enter task index to mark as completed: ")) - 1
             mark_task_completed(tasks, index)

@@ -5,17 +5,17 @@ import pprint
 import traceback
 
 # # Set up logging
-# logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Configuring logging to write to a file
-# logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Logging levels
-# logging.debug("This is a debug message")
-# logging.info("This is an info message")
-# logging.warning("This is a warning message")
-# logging.error("This is an error message")
-# logging.critical("This is a critical message")
+logging.debug("This is a debug message")
+logging.info("This is an info message")
+logging.warning("This is a warning message")
+logging.error("This is an error message")
+logging.critical("This is a critical message")
 
 # Toggle for debug prints
 debug = True
@@ -54,8 +54,8 @@ def process_numbers(numbers):
         return None
 
 # Sample data to process
-numbers = [5, -3, 2, -8, 7, 10, -1, 0]
-# numbers = [5, -3, 'a', -8, 7, 10, -1, 0]
+# numbers = [5, -3, 2, -8, 7, 10, -1, 0]
+numbers = [5, -3, 'a', -8, 7, 10, -1, 0]
 
 try:
     result = process_numbers(numbers)

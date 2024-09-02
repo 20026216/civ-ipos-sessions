@@ -42,3 +42,4 @@ print(library)
 
 # Inspecting the library (calls __repr__)
 print(repr(library))
+print.pprint(repr(library.books))
